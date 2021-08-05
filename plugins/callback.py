@@ -28,7 +28,7 @@ playlist=Config.playlist
 
 HELP = """
 
-<b>Add the bot and User account in your Group with admin rights.
+<b> This Bot Is Not For You.This Blt Is Made For @LatestMoviesGroup2 
 
 Start a VoiceChat
 
@@ -171,12 +171,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-                InlineKeyboardButton('🤖 Other Bots', url='https://t.me/subin_works/122'),
+                InlineKeyboardButton('Group 🔥', url='https://t.me/LatestMoviesGroup2'),
+                InlineKeyboardButton('Channel 🔥', url='https://t.me/LM_All_MoviesArchive'),
             ],
             [
-                InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/subinps'),
-                InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+                InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/LEGEND_OF_TG'),
+                InlineKeyboardButton('🧩 Made For', url='https://t.me/LatestMoviesGroup2'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
